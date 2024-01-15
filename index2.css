@@ -1,0 +1,109 @@
+@keyframes glow-span1 {
+    0% {
+        text-shadow: 3px 1px 10px blue;
+    }
+    25% {
+        text-shadow: 3px 1px 10px blue;
+    }
+    50% {
+        text-shadow: 5px 3px 20px blue;
+    }
+    75% {
+        text-shadow: 3px 1px 10px blue;
+    }
+    100% {
+        text-shadow: 0px 0px 0px blue;
+    }
+}
+.span1 {
+    font-weight: bold;
+    color: blue;
+    font-family: Courier;
+    animation-name: glow-span1;
+    animation-delay: 0s;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    text-shadow: 5px 3px 20px blue;
+}
+@keyframes glow-span2 {
+    0% {
+        text-shadow: 3px 1px 10px #D4000A;
+    }
+    25% {
+        text-shadow: 3px 1px 10px #D4000A;
+    }
+    50% {
+        text-shadow: 5px 3px 20px #D4000A;
+    }
+    75% {
+        text-shadow: 3px 1px 10px #D4000A;
+    }
+    100% {
+        text-shadow: 0px 0px 0px #D4000A;
+    }
+}
+.span2 {
+    color: #D4000A;
+    font-family: Courier;
+    animation-name: glow-span2;
+    animation-delay: .5s;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    text-shadow: 5px 3px 10px #D4000A;
+}
+@keyframes glow-span3 {
+    0% {
+        text-shadow: 3px 1px 10px yellow;
+    }
+    25% {
+        text-shadow: 3px 1px 10px yellow;
+    }
+    50% {
+        text-shadow: 5px 3px 20px yellow;
+    }
+    75% {
+        text-shadow: 3px 1px 10px yellow;
+    }
+    100% {
+        text-shadow: 0px 0px 0px yellow;
+    }
+}
+.span3 {
+    color: yellow;
+    font-family: Courier;
+    animation-name: glow-span3;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    text-shadow: 5px 3px 10px yellow;
+}
+@keyframes glow-span4 {
+    0% {
+        text-shadow: 3px 1px 10px #72E000;
+    }
+    25% {
+        text-shadow: 3px 1px 10px #72E000;
+    }
+    50% {
+        text-shadow: 5px 3px 20px #72E000;
+    }
+    75% {
+        text-shadow: 3px 1px 10px #72E000;
+    }
+    100% {
+        text-shadow: 0px 0px 0px #72E000;
+    }
+}
+.span4 {
+    color: #72E000;
+    font-family: Courier;
+    animation-name: glow-span4;
+    animation-delay: 1.5s;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    text-shadow: 5px 3px 10px #72E000;
+}
